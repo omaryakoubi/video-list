@@ -33,7 +33,6 @@ const SuggestionList = () => {
               frameborder="0"
             ></iframe>
             <h6 id="title">{video.title}</h6>
-            <Button />
           </div>
         );
       })}
