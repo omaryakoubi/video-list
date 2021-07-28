@@ -1,0 +1,10 @@
+.suggestionList {
+  margin-top: 53px;
+  margin-left: 50px;
+}
+
+.suggestionItem {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}

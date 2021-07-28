@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  flex-wrap: wrap;
+}
+
+/* .App :last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} */

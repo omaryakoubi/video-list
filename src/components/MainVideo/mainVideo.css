@@ -1,0 +1,10 @@
+.mainVideo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+#videoName {
+  display: flex;
+  flex-direction: column;
+}
