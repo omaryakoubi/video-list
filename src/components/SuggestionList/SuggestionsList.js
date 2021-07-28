@@ -8,7 +8,7 @@ const SuggestionList = () => {
     },
     {
       src: "https://www.youtube.com/embed/cCOL7MC4Pl0",
-      title: "Jake Archibald: In The Loop - JSConf.Asia",
+      title: "Jake Archibald: In The Loop",
     },
     {
       src: "https://www.youtube.com/embed/8aGhZQkoFbQ",
@@ -16,7 +16,7 @@ const SuggestionList = () => {
     },
     {
       src: "https://www.youtube.com/embed/-QgJgZCJvo4",
-      title: "I Challenged The CSS King To A CSS Battle",
+      title: "I Challenged The CSS King",
     },
   ];
   return (
@@ -32,8 +32,7 @@ const SuggestionList = () => {
               src={video.src}
               frameborder="0"
             ></iframe>
-            <h6 id="title">{video.title}</h6>
-            <Button />
+            <h6 id="suggestionTitle">{video.title}</h6>
           </div>
         );
       })}

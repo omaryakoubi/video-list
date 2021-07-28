@@ -1,3 +1,5 @@
+import "./commentList.css"
+
 const CommentList = () => {
   const commentList = [
     {
